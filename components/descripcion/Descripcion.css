@@ -1,0 +1,17 @@
+
+    .introduccion {
+        display: flex;
+        
+    }
+
+    .introduccion-parrafo {
+        padding: 1em;
+   
+
+    }
+
+
+    .introduccion-logo img {
+        display: none;
+
+    }

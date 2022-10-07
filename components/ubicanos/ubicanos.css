@@ -1,0 +1,46 @@
+
+
+ /*UBICACION modile*/
+
+ .ubicacion {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.mapa {
+    width: 100%;
+    height: 20em;
+}
+
+.ubicacion h2 {
+    color: var(--negro2);
+    font-size: 2em;
+
+}
+
+.direccion {
+    display: flex;
+    font-family: 'Marcellus', serif;
+    font-size: 1.5em;
+    justify-content: center;
+    line-height: 1em;
+    flex-direction: column;
+    padding-top: 1em;
+}
+
+.direccion hr {
+    width: 50%;
+    border-color: var(--azuloscuro);
+    text-align: center;
+    margin-left: 25%;
+
+
+}
+
+
+

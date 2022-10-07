@@ -1,0 +1,106 @@
+#puntuacion{
+    width: 100%;
+}
+
+.titulo{
+    background-color: var(--negro2);
+    height: 200px;
+    padding: 20px 0;
+}
+
+#puntuacion h1{
+    text-align: center;
+    color: var(--blanco);
+    font-size: 45px;
+}
+
+.cards{
+    margin-top: -50px;
+    gap: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.cards .card{
+    background-image: url(../cards/Group\ 200.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 25%;
+    min-width: 300px;
+    max-width: 230px;
+    margin: 0.8rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.tstars{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.border-img{
+    border-radius: 50%;
+    width: 80px;
+    
+}
+
+.name p{
+    font-size: 23px;
+    margin: 0;
+}
+
+.stars{
+    display: flex;
+    gap: 10px;
+}
+
+.name i{
+    font-size: 20px;
+}
+
+.te{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.pie-pagina{
+    margin-top: 40px;
+    background-color: var(--negro2);
+    padding: 20px 30px;
+    color: #fff;
+}
+
+.grupo-1 i{
+    display: none;
+}
+
+.grupo-3{
+    display: flex;
+}
+
+.grupo-4 i{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.foot-hr{
+    margin: 0 auto;
+    width: 100%;
+    opacity: 0.8;
+    border: none;
+    background-color: var(--gris);
+    justify-self: center;
+    height: 2px;
+}
